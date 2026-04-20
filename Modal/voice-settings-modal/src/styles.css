@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@source "..";
+
+/* ---- Chatbot UX Modals: shared button rule ----
+   주요(Primary) 액션 버튼은 DS primary(브랜드) 대신 블랙 톤 사용.
+   - Default: bg/inverted
+   - Hover:   bg/inverted + white 15% overlay  */
+.btn-primary-black,
+.btn-primary-black:active {
+  background-color: var(--bg-inverted) !important;
+  color: #ffffff !important;
+}
+.btn-primary-black:hover:not(:disabled) {
+  background-color: color-mix(in srgb, var(--bg-inverted) 85%, #ffffff) !important;
+}
