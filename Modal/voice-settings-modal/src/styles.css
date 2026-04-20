@@ -14,3 +14,11 @@
 .btn-primary-black:hover:not(:disabled) {
   background-color: color-mix(in srgb, var(--bg-inverted) 85%, #ffffff) !important;
 }
+
+/* DS preflight가 ul/ol에 list-style:none 리셋을 걸어 Tailwind list-disc/decimal보다 우선 적용됨. 복원. */
+ul.list-disc {
+  list-style-type: disc;
+}
+ol.list-decimal {
+  list-style-type: decimal;
+}
