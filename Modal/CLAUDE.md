@@ -4,6 +4,7 @@
 각 모달은 개별 하위 폴더로 관리합니다. 각 폴더는 독립 Vite 프리뷰로 동작합니다.
 
 - `voice-settings-modal/` — 프리미엄 상담 보이스 설정
+- `voice-preview-modal/` — ARS Flow Builder 미리듣기
 
 ## 디자인 시스템 규칙 (필수)
 모든 모달은 Blumnai DS를 기준으로 작성합니다. DS의 가이드라인을 반드시 따르세요.
