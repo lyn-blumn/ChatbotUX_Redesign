@@ -5,7 +5,9 @@
 /* ---- Chatbot UX Modals: shared button rule ----
    주요(Primary) 액션 버튼은 DS primary(브랜드) 대신 블랙 톤 사용.
    - Default: bg/inverted
-   - Hover:   bg/inverted + white 15% overlay  */
+   - Hover:   bg/inverted + white 15% overlay
+   NOTE: 이 파일은 voice-settings-modal/src/styles.css 와 동일하게 유지해야 합니다.
+         (Modal/CLAUDE.md의 "공용 스타일 동기화 규칙" 참고) */
 .btn-primary-black,
 .btn-primary-black:active {
   background-color: var(--bg-inverted) !important;
@@ -21,9 +23,4 @@ ul.list-disc {
 }
 ol.list-decimal {
   list-style-type: decimal;
-}
-
-/* 워크플로우 행 alternating bg 토큰 */
-.preview-row {
-  background-color: var(--bg-subtle);
 }

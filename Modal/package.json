@@ -1,0 +1,15 @@
+{
+  "name": "chatbot-ux-modals",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "voice-settings-modal",
+    "voice-preview-modal"
+  ],
+  "scripts": {
+    "dev:settings": "npm --workspace voice-settings-modal run dev",
+    "dev:preview": "npm --workspace voice-preview-modal run dev",
+    "build:settings": "npm --workspace voice-settings-modal run build",
+    "build:preview": "npm --workspace voice-preview-modal run build"
+  }
+}
